@@ -1,0 +1,27 @@
+{
+  "name": "c-cli",
+  "version": "1.0.0",
+  "description": "自己弄的脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yongest/c-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "c": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Yongest/c-cli/issues"
+  },
+  "homepage": "https://github.com/Yongest/c-cli#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0"
+  }
+}
